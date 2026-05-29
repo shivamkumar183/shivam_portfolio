@@ -27,9 +27,9 @@ export default function Contact(){
           <input name="name" placeholder="Name" aria-label="Name" className="w-full p-3 rounded bg-transparent border border-white/5" required />
           <input name="email" placeholder="Email" aria-label="Email" type="email" className="w-full p-3 rounded bg-transparent border border-white/5 mt-3" required />
           <textarea name="message" placeholder="Message" aria-label="Message" className="w-full p-3 rounded bg-transparent border border-white/5 mt-3 h-32" required />
-          <div className="flex items-center gap-3 mt-3">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-3 mt-3">
             <button type="submit" className="px-4 py-2 bg-indigo-600 rounded">Send Message</button>
-            <a href="mailto:hshivam183kumar@gmail.com" className="text-sm text-gray-400">Or email: hshivam183kumar@gmail.com</a>
+            <a href="mailto:hshivam183kumar@gmail.com" className="text-sm text-gray-400 break-words">Or email: hshivam183kumar@gmail.com</a>
           </div>
         </form>
         <div className="w-full md:w-1/3">

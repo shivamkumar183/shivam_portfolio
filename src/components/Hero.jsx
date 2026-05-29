@@ -23,7 +23,7 @@ export default function Hero(){
             <motion.p initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.12}} className="mt-10 max-w-xl text-gray-300">Building intelligent systems that solve real-world problems.</motion.p>
 
             <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.18}} className="mt-8 flex flex-wrap gap-4">
-              <a href="#" className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-indigo-500 shadow-lg hover:scale-105 transform transition">View Work <FaRocket className="ml-1"/></a>
+              <a href="#projects" className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-gradient-to-r from-purple-600 to-indigo-500 shadow-lg hover:scale-105 transform transition">View Work <FaRocket className="ml-1"/></a>
               <a href="#contact" className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 hover:bg-white/5 transition">Contact Me</a>
             </motion.div>
 
