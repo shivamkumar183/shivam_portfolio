@@ -6,11 +6,12 @@ import ProjectCard from './ProjectCard'
 const projects = [
   {
     id:1,
-    title:'Zerodha Trading Dashboard',
-    desc:'Frontend-heavy real-time trading UI showcasing charts and widgets.',
-    tech:['React','Tailwind','WebSockets'],
+    title:'Stock Trading Platform - inspired by Zerodha ',
+    desc:'Developed a full  stack stock trading platform with secure JWT  authentication, RESTful APIs, and MongoDB database integration.',
+    tech:['React','Node.js','Express','MongoDB','JWT'],
     github:"https://github.com/shivamkumar183/zerodha-fullstack-clone",
-    demo:'#',
+    demo:'https://youtu.be/SelM3vwJW6E?si=4Y9qzfBLxqd7WcQG',
+    youtubeId:'SelM3vwJW6E'
   },
   {
     id:2,
@@ -18,15 +19,17 @@ const projects = [
     desc:'Image classification pipeline using convolutional neural networks.',
     tech:['Python','TensorFlow','Keras'],
     github:"https://colab.research.google.com/drive/1NbUCuW4j5Gp_WIVCfWc8vEwIkWKevvnL?usp=sharing",
-    demo:'#',
+    demo:'https://colab.research.google.com/drive/1NbUCuW4j5Gp_WIVCfWc8vEwIkWKevvnL?usp=sharing',
+    youtubeId:'61a4XITIFCw'
   },
   {
     id:3,
     title:'Online Exam Registration System',
     desc:'Full-stack app for managing registration, auth, and scheduling.',
-    tech:['React','Node.js','MongoDB'],
+    tech:['HTML', 'CSS', 'PHP', 'MySQL', 'XAMPP'],
     github:"https://github.com/shivamkumar183/skiltell-exam-registration",
     demo:'#',
+    youtubeId:'HPrdZs6KDmA'
   }
 ]
 
