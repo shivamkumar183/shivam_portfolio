@@ -11,7 +11,6 @@ const projects = [
     tech:['React','Tailwind','WebSockets'],
     github:"https://github.com/shivamkumar183/zerodha-fullstack-clone",
     demo:'#',
-    youtubeId:'dQw4w9WgXcQ'
   },
   {
     id:2,
@@ -20,7 +19,6 @@ const projects = [
     tech:['Python','TensorFlow','Keras'],
     github:"https://colab.research.google.com/drive/1NbUCuW4j5Gp_WIVCfWc8vEwIkWKevvnL?usp=sharing",
     demo:'#',
-    youtubeId:'dQw4w9WgXcQ'
   },
   {
     id:3,
@@ -29,7 +27,6 @@ const projects = [
     tech:['React','Node.js','MongoDB'],
     github:"https://github.com/shivamkumar183/skiltell-exam-registration",
     demo:'#',
-    youtubeId:'dQw4w9WgXcQ'
   }
 ]
 
