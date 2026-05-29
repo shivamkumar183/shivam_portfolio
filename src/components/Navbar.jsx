@@ -23,7 +23,7 @@ export default function Navbar() {
             <li key={l}><a href={`#${l}`} className="hover:underline capitalize text-gray-200/90">{l}</a></li>
           ))}
           <li>
-            <a href="/Resume.pdf" target="_blank" rel="noreferrer" className="px-3 py-1 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 text-sm shadow">Resume</a>
+            <a href="/resume.pdf" target="_blank" rel="noreferrer" className="px-3 py-1 rounded-md bg-gradient-to-r from-purple-600 to-indigo-500 text-sm shadow">Resume</a>
           </li>
         </ul>
 
