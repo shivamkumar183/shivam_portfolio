@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import profileImage from '../assets/media/images/profile.png'
 
 export default function About(){
   return (
@@ -13,7 +14,7 @@ export default function About(){
 
         <motion.div initial={{opacity:0, y:10}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="glass rounded-3xl p-8 md:p-12 flex flex-col lg:flex-row gap-12 items-center hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300">
           <motion.img 
-            src="/src/assets/media/images/profile.png" 
+            src={profileImage}
             alt="Profile" 
             className="w-96 h-96 rounded-2xl object-cover border-2 border-white/10 shadow-lg flex-shrink-0"
             whileHover={{filter: "brightness(1.1) drop-shadow(0 0 10px rgba(128, 90, 213, 0.6))"}}
