@@ -28,7 +28,15 @@ export default function Navbar() {
         </ul>
 
         <div className="md:hidden">
-          <button onClick={() => setOpen(true)} aria-label="Open menu" className="p-2 rounded glass">☰</button>
+          <motion.button
+            onClick={() => setOpen(true)}
+            aria-label="Open menu"
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+            className="p-2 rounded-lg glass text-white text-xl hover:bg-indigo-500/20 hover:text-indigo-300 transition-all duration-200"
+          >
+            ☰
+          </motion.button>
         </div>
       </div>
       <MobileMenu open={open} onClose={() => setOpen(false)} />
