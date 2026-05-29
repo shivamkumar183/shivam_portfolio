@@ -19,10 +19,10 @@ export default function App(){
       <main className="container mx-auto px-6 lg:px-20">
         <section id="hero" className="pt-24"><Hero /></section>
         <section id="about" className="py-16"><About /></section>
-        <section id="education-experience" className="py-16">
-          <div className="md:flex justify-center gap-12 px-8">
-            <div className="md:w-1/2"><Education /></div>
-            <div className="md:w-1/2"><Experience /></div>
+        <section className="py-16">
+          <div className="md:flex justify-center gap-12 px-4 md:px-8">
+            <div id="education" className="md:w-1/2 scroll-mt-24"><Education /></div>
+            <div id="experience" className="md:w-1/2 scroll-mt-24"><Experience /></div>
           </div>
         </section>
         <section id="skills" className="py-16"><Skills /></section>

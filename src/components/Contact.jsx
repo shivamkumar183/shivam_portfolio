@@ -5,13 +5,18 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa'
 export default function Contact(){
   const formRef = useRef()
 
+  const serviceId = import.meta.env.VITE_EMAILJS_SERVICE || 'service_fg2q3cq'
+  const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE || 'template_5szvc3y'
+  const userId = import.meta.env.VITE_EMAILJS_USER || 'mkogTTm3TL7GXrveO'
+
   const sendEmail = (e)=>{
     e.preventDefault()
-    // Replace serviceId, templateId, userId with your EmailJS credentials
-    // Example: emailjs.sendForm(process.env.EMAILJS_SERVICE, process.env.EMAILJS_TEMPLATE, formRef.current, process.env.EMAILJS_USER)
-    emailjs.sendForm('service_fg2q3cq','template_5szvc3y', formRef.current,'mkogTTm3TL7GXrveO')
-      .then(()=> alert('Message sent — replace placeholders with your EmailJS keys to enable sending.'))
-      .catch(()=> alert('Failed to send — please check EmailJS credentials.'))
+    emailjs.sendForm(serviceId, templateId, formRef.current, userId)
+      .then(() => alert('Message sent successfully! I will get back to you soon.'))
+      .catch((error) => {
+        console.error('EmailJS error:', error)
+        alert('Failed to send the message. Please contact me directly at hshivam183kumar@gmail.com.')
+      })
   }
 
   return (
