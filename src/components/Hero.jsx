@@ -6,7 +6,7 @@ import Typewriter from './Typewriter'
 
 export default function Hero(){
   return (
-    <div className="relative py-24">
+    <div className="relative py-16 md:py-24">
       <div className="container mx-auto px-6">
         <div className="glass rounded-3xl p-8 md:p-12 lg:p-16 flex flex-col lg:flex-row items-center gap-8 overflow-hidden hover:shadow-2xl hover:shadow-purple-500/20 transition-all duration-300 hover:scale-105">
           <div className="flex-1">

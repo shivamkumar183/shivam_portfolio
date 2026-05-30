@@ -17,12 +17,12 @@ export default function App(){
     <div className="min-h-screen text-white">
       <Navbar />
       <main className="container mx-auto px-6 lg:px-20">
-        <section id="hero" className="pt-24"><Hero /></section>
-        <section id="about" className="py-16"><About /></section>
+        <section id="hero" className="pt-16 md:pt-24"><Hero /></section>
+        <section id="about" className="py-16 md:py-24"><About /></section>
         <section className="py-16">
           <div className="md:flex justify-center gap-12 px-4 md:px-8">
             <div id="education" className="md:w-1/2 scroll-mt-24"><Education /></div>
-            <div id="experience" className="md:w-1/2 scroll-mt-24"><Experience /></div>
+            <div id="experience" className="md:w-1/2 scroll-mt-24 mt-12 md:mt-0"><Experience /></div>
           </div>
         </section>
         <section id="skills" className="py-16"><Skills /></section>

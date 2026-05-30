@@ -4,7 +4,7 @@ import profileImage from '../assets/media/images/profile.png'
 
 export default function About(){
   return (
-    <div className="relative py-24">
+    <div className="relative py-16 md:py-24">
       <div className="container mx-auto px-6">
         <motion.div initial={{opacity:0, y:10}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="text-center mb-16">
           <h3 className="text-purple-400 font-semibold text-sm uppercase tracking-widest">WHO I AM</h3>

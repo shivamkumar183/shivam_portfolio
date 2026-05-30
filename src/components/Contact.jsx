@@ -21,7 +21,7 @@ export default function Contact(){
 
   return (
     <div className="glass p-6 rounded-lg">
-      <h3 className="text-2xl font-semibold">Contact</h3>
+      <h3 className="text-2xl font-semibold">Contact Me</h3>
       <div className="mt-4 md:flex gap-6">
         <form ref={formRef} onSubmit={sendEmail} className="flex-1">
           <input name="name" placeholder="Name" aria-label="Name" className="w-full p-3 rounded bg-transparent border border-white/5" required />
@@ -29,7 +29,7 @@ export default function Contact(){
           <textarea name="message" placeholder="Message" aria-label="Message" className="w-full p-3 rounded bg-transparent border border-white/5 mt-3 h-32" required />
           <div className="flex flex-col sm:flex-row sm:items-center gap-3 mt-3">
             <button type="submit" className="px-4 py-2 bg-indigo-600 rounded">Send Message</button>
-            <a href="mailto:hshivam183kumar@gmail.com" className="text-sm text-gray-400 break-words">Or email: hshivam183kumar@gmail.com</a>
+            <a href="mailto:hshivam183kumar@gmail.com" className="text-sm text-gray-400 break-words"></a>
           </div>
         </form>
         <div className="w-full md:w-1/3">

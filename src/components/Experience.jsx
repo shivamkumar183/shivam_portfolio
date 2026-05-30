@@ -4,17 +4,19 @@ import { motion } from 'framer-motion'
 const timeline = [
   {
     id:1,
-    title: 'Intern – Infosys Springboard Virtual Internship 6.0 (Online)',
+    title: 'Intern',
+    company: 'Infosys',
     subtitle: 'Frontend Engineer',
     period: 'Nov 2025 – Jan 2026',
     details: 'Worked as a Frontend Engineer on a team-based project titled "Intelligent Speech Therapy Platform." \n• Collaborated with frontend, backend, and NLP teams to build a user-friendly and accessible web interface. \n• Designed and developed responsive UI components to support speech therapy workflows. \n• Integrated frontend features with backend APIs and NLP-driven functionalities. \n• Focused on usability, performance, and clean code practices in a real-world project environment. \n• Gained hands-on experience in team collaboration, Agile-style development, and end-to-end product building.'
   },
   {
     id:2,
-    title: 'Prompt Engineering Intern',
-    subtitle: 'Scale AI',
+    title: 'Freelancer',
+    company: 'Scale AI',
+    subtitle: 'Prompt Engineer',
     period: 'Sep 2023 – Dec 2023',
-    details: 'Designed prompts and evaluation harnesses for model behavior. Worked on dataset creation and fine-tuning workflows. Tech: Python, prompt design, evaluation metrics.'
+    details: '• Worked on AI training and evaluation tasks involving Mathematics, Physics, Chemistry, and Coding problems. Improved answer quality, completed incomplete responses, corrected inaccuracies, and helped improve AI-generated outputs through data evaluation and validation tasks.'
   }
 ]
 
@@ -40,7 +42,8 @@ function TimelineItem({item}){
         <div className="flex items-center justify-between">
           <div>
             <h4 className="font-semibold">{item.title}</h4>
-            <div className="text-sm text-gray-400">{item.subtitle}</div>
+            {item.company && <div className="text-sm text-gray-400">{item.company}</div>}
+            {item.subtitle && <div className="text-sm text-gray-400">{item.subtitle}</div>}
           </div>
           <div className="text-sm text-gray-400">{item.period}</div>
         </div>
@@ -52,7 +55,7 @@ function TimelineItem({item}){
 
 export default function Experience(){
   return (
-    <div>
+    <div className="mt-12 md:mt-0">
       <h3 className="text-2xl font-semibold mb-4">Experience</h3>
       <div className="border-l border-white/6 pl-6">
         {timeline.map(t => <TimelineItem key={t.id} item={t} />)}
