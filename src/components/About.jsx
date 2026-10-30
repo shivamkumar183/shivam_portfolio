@@ -22,13 +22,18 @@ export default function About(){
           />
 
           <div className="flex-1">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">I'm a passionate Full-Stack Developer and Machine Learning enthusiast.</h3>
-            
-            <p className="text-gray-300 text-lg leading-relaxed mb-6">I enjoy building scalable web applications and intelligent systems that solve real-world problems. My passion lies in creating digital solutions that are not just functional, but also beautiful and user-centric.</p>
+            {/* <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">I'm a passionate Full-Stack Developer and Machine Learning enthusiast.</h3>
+             */}
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">I'm a technology professional currently working as an Associate, Correspondence – Template Development at Onity Group, with an academic background in Computer Science Engineering specializing in Artificial Intelligence and Machine Learning.</p>
 
-            <p className="text-gray-300 text-lg leading-relaxed mb-6">I have a strong foundation in <span className="text-purple-400 font-semibold">Java, JavaScript, and Python</span>, and I love transforming ideas into clean, efficient, and user-friendly digital solutions. I'm skilled in full-stack development, from crafting responsive front-end interfaces to building robust backend systems.</p>
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">In my current role, I work with backend correspondence systems, ICM, Scalar, and Customer Communications Management (CCM). My responsibilities include template development, workflow management, quality control testing, and validating templates to ensure accuracy, consistency, and reliability.</p>
 
-            <p className="text-gray-300 text-lg leading-relaxed mb-8">I continuously improve my skills through real-world projects, internships, and problem-solving practice. Whether it's contributing to open-source projects or building personal applications, I'm always pushing myself to learn and grow.</p>
+            {/* <p className="text-gray-300 text-lg leading-relaxed mb-6">I have a strong foundation in <span className="text-purple-400 font-semibold">Java, JavaScript, and Python</span>, and I love transforming ideas into clean, efficient, and user-friendly digital solutions. I'm skilled in full-stack development, from crafting responsive front-end interfaces to building robust backend systems.</p> */}
+
+
+            <p className="text-gray-300 text-lg leading-relaxed mb-6">Alongside my professional experience, I have a strong interest in software engineering, full-stack development, and artificial intelligence. My technical skills include Java, JavaScript, Python, React, and machine learning technologies. I enjoy developing applications, solving technical problems, and exploring innovative ways to use technology to improve business processes.</p>
+
+            <p className="text-gray-300 text-lg leading-relaxed mb-8">I'm committed to continuous learning and professional growth, with a focus on strengthening my programming, backend development, and AI/ML skills to build scalable, efficient, and intelligent solutions for real-world challenges.</p>
           </div>
         </motion.div>
       </div>

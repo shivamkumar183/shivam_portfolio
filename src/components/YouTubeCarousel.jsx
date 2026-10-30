@@ -12,7 +12,7 @@ export default function YouTubeCarousel() {
   return (
     <div>
       <h3 className="text-2xl font-semibold mb-6">
-        Sharing My Learning Journey
+        Sharing My Learning YT Journey
       </h3>
 
 <Swiper

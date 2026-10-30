@@ -7,7 +7,7 @@ const timeline = [
     title: 'B.Tech in Computer Science and Engineering (AI/ML)',
     subtitle: 'Alliance University, Bengaluru',
     period: '2022 – 2026',
-    details: 'CGPA: 8.6/10'
+    details: 'CGPA: 8.7/10'
   },
   {
     id:2,

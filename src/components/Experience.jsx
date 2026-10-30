@@ -2,8 +2,18 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 const timeline = [
-  {
+
+    {
     id:1,
+    title: 'Associate',
+    company: 'ONIT.Y Group',
+    subtitle: 'Bengaluru, India',
+    period: 'Jun 2026 – Current',
+    details:'• Backend Development (ICM): Work on backend processes and configurations related to correspondence template development using ICM. \n• Scalar: Work with Scalar for correspondence workflow and template-related activities. \n• Customer Communications Management (CCM): Work on CCM processes related to developing and managing customer correspondence templates. \n• Template Development: Develop, modify, and maintain templates according to business requirements. \n• Quality Control (QC) Testing: Perform quality checks on templates to verify content accuracy, formatting, field mappings, and overall output quality. \n• Testing and Validation: Identify template issues, validate changes, and ensure templates function as expected before release. \n• Issue Resolution: Investigate template-related issues and coordinate with relevant teams when necessary.'
+
+  },
+  {
+    id:2,
     title: 'Intern',
     company: 'Infosys',
     subtitle: 'Frontend Engineer',
@@ -11,7 +21,7 @@ const timeline = [
     details: 'Worked as a Frontend Engineer on a team-based project titled "Intelligent Speech Therapy Platform." \n• Collaborated with frontend, backend, and NLP teams to build a user-friendly and accessible web interface. \n• Designed and developed responsive UI components to support speech therapy workflows. \n• Integrated frontend features with backend APIs and NLP-driven functionalities. \n• Focused on usability, performance, and clean code practices in a real-world project environment. \n• Gained hands-on experience in team collaboration, Agile-style development, and end-to-end product building.'
   },
   {
-    id:2,
+    id:3,
     title: 'Freelancer',
     company: 'Scale AI',
     subtitle: 'Prompt Engineer',
